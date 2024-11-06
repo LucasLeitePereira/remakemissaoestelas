@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modello del sistema solare
+* source:	https://sketchfab.com/3d-models/modello-del-sistema-solare-145c4960b36441328139e341e3011a57
+* author:	stephanmosca (https://sketchfab.com/stephanmosca)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modello del sistema solare" (https://sketchfab.com/3d-models/modello-del-sistema-solare-145c4960b36441328139e341e3011a57) by stephanmosca (https://sketchfab.com/stephanmosca) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
