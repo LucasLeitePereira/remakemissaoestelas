@@ -16,8 +16,7 @@ public class QuestionLoader : MonoBehaviour
     private List<Question> hardQuestions = new List<Question>();
     private List<Question> selectedQuestions = new List<Question>();
     private string resposta;
-    public TextMeshProUGUI acertos;
-    public TextMeshProUGUI motivacao;
+    public GameObject acertos;
     private int qtdCorretas = 0;
 
     private int questionIndex = 0;
@@ -26,6 +25,9 @@ public class QuestionLoader : MonoBehaviour
     public GameObject questionPanel;
     public GameObject playerController;
     public GameObject buttonAdvanceQuestion;
+    public Sprite spriteRespostaIncorreta; // Sprite vermelho para resposta incorreta
+    public Sprite spriteOriginal; // Armazena o sprite original do botão
+
 
     private bool fim = false;
     private bool escolheu = false;
@@ -131,7 +133,7 @@ public class QuestionLoader : MonoBehaviour
     public void OnHardButtonClick()
     {
         questionIndex = 0;
-        LoadQuestionsFromFile(); 
+        LoadQuestionsFromFile();
         SelectRandomQuestions(hardQuestions, 10);
         DisplayQuestion(0); // Mostrar a primeira pergunta selecionada
     }
@@ -157,6 +159,11 @@ public class QuestionLoader : MonoBehaviour
 
     public void DisplayQuestion(int index)
     {
+        if (answerButtons.Length > 0 && answerButtons[0].image.sprite != null)
+        {
+            spriteOriginal = answerButtons[0].image.sprite; // Salva o sprite original apenas uma vez
+        }
+
         if (index < 0 || index >= selectedQuestions.Count)
         {
             Debug.LogWarning("Índice de pergunta fora do alcance.");
@@ -187,6 +194,37 @@ public class QuestionLoader : MonoBehaviour
     // Método chamado quando um botão de resposta é clicado.
     public void OnButtonClick(int optionIndex)
     {
+
+        if (answerButtons[optionIndex].GetComponentInChildren<TMPro.TextMeshProUGUI>().text == resposta)
+        {
+            if (escolheu == false)
+            {
+                Debug.Log("Resposta correta!");
+                qtdCorretas++;
+                answerButtons[optionIndex].image.color = corRespostaCorreta;
+                escolheu = true;
+            }
+        }
+        else
+        {
+            if (escolheu == false)
+            {
+                Debug.Log("Resposta incorreta!");
+                answerButtons[optionIndex].image.sprite = spriteRespostaIncorreta; // Troca o sprite do botão
+                escolheu = true;
+            }
+        }
+
+        if (escolheu == true)
+        {
+            for (int i = 0; i < answerButtons.Length; i++)
+            {
+                if (answerButtons[i].GetComponentInChildren<TMPro.TextMeshProUGUI>().text == resposta)
+                {
+                    answerButtons[i].image.color = corRespostaCorreta;
+                }
+            }
+        }
 
 
         if (answerButtons[optionIndex].GetComponentInChildren<TMPro.TextMeshProUGUI>().text == resposta)
@@ -236,6 +274,12 @@ public class QuestionLoader : MonoBehaviour
     //Método chamado quando o botão de avançar pergunta é clicado
     public void AdvanceQuestion()
     {
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            answerButtons[i].image.color = corOriginalBotao; // Restaura a cor original
+            answerButtons[i].image.sprite = spriteOriginal; // Restaura o sprite original
+        }
+
         if (escolheu == true)
         {
             escolheu = false;
@@ -256,26 +300,12 @@ public class QuestionLoader : MonoBehaviour
             else
             {
 
-                if (qtdCorretas < 5)
+                if (acertos != null)
                 {
-                    motivacao.text = "Continue jogando para aprender ainda mais.";
+                    TextMeshProUGUI textoAcerto = acertos.GetComponent<TextMeshProUGUI>();
+                    textoAcerto.text = qtdCorretas.ToString();
                 }
-                else if (qtdCorretas >= 5 && qtdCorretas <= 7)
-                {
-                    motivacao.text = "Você foi bem mas ainda pode melhorar! Continue sua exploração";
-                }
-                else if (qtdCorretas >= 8 && qtdCorretas <= 9)
-                {
-                    motivacao.text = "Você está se tornando um explorador nato! Continue explorando o universo.";
-                }
-                else if (qtdCorretas > 9)
-                {
-                    motivacao.text = "Parabéns! Você é um verdadeiro explorador das galáxias";
-                }
-
-
                 //Ações realizadas quando todas as perguntas foram respondidas
-                acertos.text = "Você acertou " + qtdCorretas.ToString() + " de 10 questões possíveis";
                 questionPanel.SetActive(false); //Desativa o painel de perguntas
                 resultPanel.SetActive(true); //Ativa o painel de resultado
                 Debug.Log("Fim das perguntas.");
@@ -284,6 +314,8 @@ public class QuestionLoader : MonoBehaviour
         }
 
     }
+
+
 
 }
 
@@ -297,5 +329,4 @@ public class Question
     public List<string> choices; // Adicione esta linha para as opções de resposta.
     public string correctAnswer; // Adicione esta linha para a resposta correta.
 }
-
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.044421576, g: 0.03969398, b: 0.04710237, a: 1}
+  m_IndirectSpecularColor: {r: 0.04527913, g: 0.039755568, b: 0.047978833, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6927,8 +6927,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 261034520}
   - {fileID: 287725780}
+  - {fileID: 261034520}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6949,14 +6949,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecb7b8df97ea2af47a4b2c9589ecbe4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a5985d8f4909d14cbba8515bc8ac7f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7088,8 +7088,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -313.99988, y: 192.00002}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 235.4728, y: -15.9851}
+  m_SizeDelta: {x: -294.3913, y: 376.2831}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261034521
 MonoBehaviour:
@@ -7158,8 +7158,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 10.8
+  m_fontSizeBase: 10.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7194,7 +7194,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 123.29169, y: 0, z: -605.9282, w: 0}
+  m_margin: {x: -294.14127, y: 0, z: -294.62064, w: -1.3874207}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7403,8 +7403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96, y: 12}
-  m_SizeDelta: {x: 200, y: 380.8333}
+  m_AnchoredPosition: {x: 235, y: -19}
+  m_SizeDelta: {x: 301.6939, y: 374.4354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280881173
 MonoBehaviour:
@@ -7448,8 +7448,8 @@ MonoBehaviour:
     explora\xE7\xE3o revela cada vez mais sobre os mist\xE9rios do nosso sistema
     estelar."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
-  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7473,8 +7473,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.5
-  m_fontSizeBase: 11.5
+  m_fontSize: 10.92
+  m_fontSizeBase: 10.92
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7509,7 +7509,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 86.54721, y: 30.773926, z: -186.49573, w: -24.62326}
+  m_margin: {x: 1.7298317, y: 0.6953895, z: 0.10414888, w: 1.0196381}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7557,8 +7557,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -348, y: 175}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 174.48, y: 0.4}
+  m_SizeDelta: {x: 450, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &287725781
 MonoBehaviour:
@@ -7580,7 +7580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d7ebd6c446866b749a5ee96c6895f74a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b73408467b2a5d448b69c40ff58c0c9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9174,7 +9174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123, y: 187.99992}
+  m_AnchoredPosition: {x: 62, y: 169}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &488435828
@@ -9238,8 +9238,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 12.79
+  m_fontSizeBase: 12.79
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9274,7 +9274,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -71.56415, y: 0, z: -417.7691, w: 0}
+  m_margin: {x: 127.02201, y: 25.141647, z: -222.51526, w: -350.85068}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11212,7 +11212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &800360637
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11229,8 +11229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 8}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 11.3, y: 3.6}
+  m_SizeDelta: {x: 55.7411, y: 40.762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800360638
 MonoBehaviour:
@@ -11252,7 +11252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: / 10
+  m_text: 10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11261,8 +11261,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294966016
+  m_fontColor: {r: 0, g: 0.9843138, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11279,13 +11279,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 24.2
+  m_fontSizeBase: 24.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -11315,7 +11315,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 17.660156, w: -50.628662}
+  m_margin: {x: 0, y: 0, z: -0.33323285, w: 0.009784722}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11456,14 +11456,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecb7b8df97ea2af47a4b2c9589ecbe4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a5985d8f4909d14cbba8515bc8ac7f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13547,8 +13547,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: 187.99998}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 234.6864, y: -16.1982}
+  m_SizeDelta: {x: 288.1621, y: 379.6332}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1225432714
 MonoBehaviour:
@@ -13613,8 +13613,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.85
-  m_fontSizeBase: 11.85
+  m_fontSize: 11.7
+  m_fontSizeBase: 11.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13649,7 +13649,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -69.64772, y: 43.04944, z: -25.962479, w: -353.38647}
+  m_margin: {x: 0.59884655, y: 0.9411535, z: 1.9029083, w: 1.8297368}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14645,8 +14645,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -350, y: 165}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 175, y: -1}
+  m_SizeDelta: {x: 450.031, y: 450.031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417309292
 MonoBehaviour:
@@ -14668,7 +14668,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 06ffd4c0bc786204e9597df8ff9f68b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ace0e066be27ea4381d0c5e40f395d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15524,7 +15524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1553626778
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15541,8 +15541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72, y: 1}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -58, y: 6}
+  m_SizeDelta: {x: 52.8099, y: 37.3235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1553626779
 MonoBehaviour:
@@ -15573,8 +15573,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294967040
+  m_fontColor: {r: 0, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -15591,13 +15591,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -15627,7 +15627,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -51.80365, y: 0, z: 127.15393, w: -50.628662}
+  m_margin: {x: 1.4409866, y: 0, z: 1.2880399, w: 0.106504485}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16968,8 +16968,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193, y: 281}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 238, y: -20}
+  m_SizeDelta: {x: 280.9651, y: 378.3929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692533685
 MonoBehaviour:
@@ -17011,8 +17011,8 @@ MonoBehaviour:
     a comunidade cient\xEDfica. Saturno permanece como um dos objetos mais cativantes
     e enigm\xE1ticos do sistema solar, enriquecendo nossa compreens\xE3o do cosmos.\r\n\r\n\r\n\r\n\r\n\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
-  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17036,8 +17036,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.36
-  m_fontSizeBase: 11.36
+  m_fontSize: 11.054
+  m_fontSizeBase: 11.054
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17072,7 +17072,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 146.188, z: -85.9285, w: -492.627}
+  m_margin: {x: 0, y: -1.0409164, z: -2.7485657, w: 1.4053496}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -23419,7 +23419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1869057024
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23726,12 +23726,13 @@ MonoBehaviour:
   - {fileID: 898325899}
   - {fileID: 1964107061}
   - {fileID: 1078825173}
-  acertos: {fileID: 0}
-  motivacao: {fileID: 0}
+  acertos: {fileID: 1553626777}
   resultPanel: {fileID: 1869057023}
   questionPanel: {fileID: 1847794500}
   playerController: {fileID: 0}
   buttonAdvanceQuestion: {fileID: 446477046}
+  spriteRespostaIncorreta: {fileID: 21300000, guid: ca745dc2292f2b349923541715861ac7, type: 3}
+  spriteOriginal: {fileID: 21300000, guid: 07bf415145b043943b86a0d2b95f98b4, type: 3}
 --- !u!4 &1915285545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a65db11ca3114394e90619db69d05fb0, type: 3}
@@ -24782,8 +24783,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 461, y: -30}
-  m_SizeDelta: {x: 200, y: 396.4368}
+  m_AnchoredPosition: {x: 236.3268, y: -18.889}
+  m_SizeDelta: {x: 290.6786, y: 371.8225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2038512855
 MonoBehaviour:
@@ -24828,8 +24829,8 @@ MonoBehaviour:
     continua a desafiar a imagina\xE7\xE3o e a pesquisa cient\xEDfica, mantendo seu
     status como um dos destinos mais empolgantes para a explora\xE7\xE3o espacial."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
-  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24853,8 +24854,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.12
-  m_fontSizeBase: 11.12
+  m_fontSize: 10.4
+  m_fontSizeBase: 10.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -24889,7 +24890,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -271.50208, y: 0, z: 174.4338, w: 22.11316}
+  m_margin: {x: 1.229248, y: 0, z: 1.0372238, w: 0.14135744}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
